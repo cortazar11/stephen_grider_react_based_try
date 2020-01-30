@@ -1,0 +1,29 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    padding: 0.2rem;
+}
+
+
+.form_wrap {
+    border: 1px solid red;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.form_group {
+    padding-left: 2rem;
+    
+}
+
+.inputSearch {
+    width: 95%;
+    padding: 0.6rem;
+}
