@@ -6,12 +6,19 @@ html,body {
 
 ul {
     list-style: none;
-    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .image {
     
-    width: 50rem;
-    height: 50rem;
+    width: 20rem;
+    height: 20rem;
     background-size: cover;
+}
+
+@media only screen and (min-width: 501px){
+    ul {
+        margin-left: 2rem;   
+    }
 }
